@@ -8,7 +8,7 @@ import numpy as np
 from math import radians, sin, cos, sqrt, atan2
 
 # ==================== 配置 ====================
-AMAP_KEY = "489518be45d4ca58a9bcb2e9ad39cf56"   # ←←← 必须修改
+AMAP_KEY = st.secrets["AMAP_KEY"]
 
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371.0
